@@ -1,0 +1,52 @@
+.connect {
+    height: 400px;
+}
+
+.connect-first {
+    font-size: 67px;
+    margin: 0;
+}
+
+.connect-second {
+    font-size: 67px;
+    color: #1C83DA;
+}
+
+.connect-btn {
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: #F1761D;
+    font-size: 18px;
+    height: 52px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+
+@media (max-width :460px) {
+    .connect {
+        height: 200px;
+    }
+
+    .connect-first {
+        font-size: 37px;
+
+    }
+
+    .connect-second {
+        font-size: 37px;
+
+    }
+
+    .connect-btn {
+        border-radius: 30px;
+        text-transform: uppercase;
+        background-color: #F1761D;
+        font-size: 12px !important;
+        height: 32px;
+        width: 120px;
+        margin-top: 20px;
+    }
+
+
+}

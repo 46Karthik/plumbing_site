@@ -1,0 +1,140 @@
+.project-highlight-list {
+  margin-left: 5rem;
+  padding: 1.25rem;
+  position: relative;
+  list-style-type: none;
+}
+
+.project-highlight-list li {
+  position: relative;
+  padding-left: 10px;
+  opacity: 1; 
+  color: #bbbbbb;
+  transition: color 0.3s ease-in-out;
+}
+
+.project-highlight-list li.animate {
+  opacity: 1;
+}
+
+.project-highlight-list li::before {
+  content: "\2022"; 
+  position: absolute;
+  left: -40px;
+  top: -50px;
+  font-size: 110px; 
+  color: #5793ED; 
+  line-height: 1;
+  opacity: 0; 
+  transition: opacity 0.5s ease-in-out;
+}
+
+.project-highlight-list li.animate::before {
+  opacity: 1;
+}
+
+.project-highlight-list li::after {
+  content: "";
+  position: absolute;
+  left: -25.5px;
+  top: 25px;
+  bottom: 0;
+  width: 2px;
+  background-color: #5793ED;
+  height: 0;
+  transition: height 3s ease-in-out, background-color 0.8s ease-in-out;
+}
+
+.project-highlight-list li.animate::after {
+  height: calc(100% - 8px);
+}
+
+.project-highlight-list li:last-of-type::after {
+  display: none;
+}
+
+.project-highlight-list li.animate-color {
+  color: #2D3033; 
+}
+.project-highlight-list>li>h4 {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+@media (max-width:768px) {
+  .project-highlight-list>li>h4 {
+    font-size: 13px;
+    margin: 10px 0;
+
+  }
+
+  .project-highlight-list>li>p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:475px) {
+
+  .project-highlight-list {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .project-highlight-list>li>h4 {
+    font-size: 14px !important;
+    padding-left: 14px;
+  }
+
+  .project-highlight-list>li>p {
+    font-size: 13px;
+    margin-left: -11.5px;
+    padding-left: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .project-images {
+    flex-direction: column;
+  }
+  .project-highlight-list {
+    margin-left:0;
+    padding: 0;
+    height: 600px;
+    position: relative;
+  }
+  
+  .project-highlight-list {
+    list-style-type: none;
+  }
+  
+  .project-highlight-list li {
+    position: relative;
+    padding-left: 10px;
+  }
+  
+  .project-highlight-list li::before {
+    content: "\2022"; 
+    position: absolute;
+    left: -20px;
+    top: -50px;
+    font-size: 110px; 
+    color: #5793ED; 
+    line-height: 1;
+  }
+  
+  .project-highlight-list li::after {
+    content: "";
+    position: absolute;
+    left: -4.5px;
+    top: 30px;
+    bottom: 0;
+    width: 2px;
+    background-color: #5793ED;
+    height: 0; 
+    transition: height 3s;
+  }
+  
+  .project-highlight-list li.animate::after {
+    height: calc(100% - 20px);
+  }
+  
+}

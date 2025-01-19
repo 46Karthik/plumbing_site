@@ -1,0 +1,9 @@
+.project-sectorial {
+    overflow-x: hidden;
+}
+
+@media (max-width: 475px) {
+    .project-sectorial > section:last-of-type {
+        margin-bottom: 4rem;
+    }
+}

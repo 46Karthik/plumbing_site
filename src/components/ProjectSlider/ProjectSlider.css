@@ -1,0 +1,98 @@
+.slider-card {
+    height: 370px;
+    position: relative;
+}
+
+.slider-image {
+    width: 90%;
+    height: 370px;
+    background-size: cover;
+    border-radius: 16px;
+    border-radius: 16px;
+}
+
+.slider-rectangle {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 90%;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    color: #ffffff;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.slider-index {
+    height: 41px;
+    width: 41px;
+    background-color: #eaeaea3d;
+    border-radius: 50%;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+
+.slider-text {
+    letter-spacing: 0.1em;
+    font-size: 17px;
+}
+.react-multiple-carousel__arrow {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1200px) {
+    .slider-text {
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 900px) {
+    .slider-image {
+      width: 100%;
+    }
+    .slider-rectangle {
+    width: 100%;  
+  }
+  }
+@media (max-width: 768px) {
+  .slider-image {
+    width: 100%;
+  }
+  .slider-rectangle {
+  width: 100%;  
+}
+}
+
+@media (max-width:475px) {
+    .slider-card {
+        width: auto;
+        height: auto;
+    }
+
+    .slider-image {
+        width: 300px;
+        height: 290px;
+        background-size: cover;
+    }
+
+    .slider-rectangle {
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        background: transparent;
+        font-weight: 500;
+        color: #060606;
+    }
+
+    .toggle-2>.slider-card {
+        margin: 20px 0;
+    }
+    .slider-text {
+        font-size: 15px;
+    }
+
+}

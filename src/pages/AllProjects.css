@@ -1,0 +1,131 @@
+.allprojects {
+    background-color: #f7f7f7;
+}
+
+.wrapper {
+    margin: 60px 0;
+}
+
+
+.semi-image {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    float: right;
+    border-top-left-radius: 14rem;
+    border-bottom-left-radius: 14rem;
+
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    margin-top: 200px;
+}
+
+}
+
+@media (max-width:475px) {
+    .allprojects {
+        width: auto;
+        overflow: hidden;
+    }
+    .css-1ruxp1v {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .css-1eynuxm,  .css-n5ldke, .css-1dqi0j3, .css-1ialerq {
+        flex-direction: column !important;
+        margin-bottom: 0 !important;
+    }
+    .css-1xga0wj {
+        margin-left: 0 !important;
+    }
+    .css-171k0yr {
+        flex-direction: column !important;
+        height: auto !important;
+        width: 350px!important;
+        padding-right: 0px;
+        overflow: hidden;
+    } 
+ .css-4idzr9 {
+        width: 350px !important;
+        background-color: #333;
+    }
+    .css-1jmmuem {
+        background-color: transparent;
+    }
+    .css-etm0j8 {
+        padding-right: 10px !important;
+        width: auto !important;
+        overflow: hidden;
+    }
+   .css-bc1tov-MuiGrid-root {
+    flex-direction: column !important;
+    width: fit-content !important;
+   }
+   .css-9vulm7 {
+    width: 400px !important;
+    margin-top: 40px;
+   }
+  .css-bc1tov-MuiGrid-root :first-child > ul , .css-bc1tov-MuiGrid-root :last-child > ul{
+    width:300px;
+  }
+  .css-m8bhan {
+    margin-bottom: 0px !important;
+  }
+  .css-rsurte {
+    display: block !important;
+    overflow: hidden;
+  }
+  .css-1h879sl {
+    display: none !important;
+  }
+  .service-all-width {
+    overflow: hidden;
+  }
+  .css-qw60dt {
+    margin: 0px !important; 
+  }
+  .css-qw60dt {
+   max-width: auto !important;
+   padding:  0 !important;
+   letter-spacing: 0.2em;
+   
+  }
+  .css-1xga0wj {
+    margin-top: 20px ;
+    margin-bottom: 20px !important;
+  }
+  .css-css-1xga0wj > div {
+width: 500px !important
+  }
+  .css-105cb5d {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .css-qw60dt > h6 {
+    font-size: 14px !important;
+  }
+  .css-qw60dt > p {
+    font-size: 12px;
+  }
+  .MuiListItem-root > div > span {
+    font-size: 12px !important;
+  }
+.css-1s50f5r {
+    max-width: 100% !important;
+}
+.css-9vulm7 {
+    margin-bottom: 10px !important;
+}
+.portfolio-container > div > img {
+    display: none;
+}
+.btn-ghost  {
+    font-size: 10rem;
+}
+.css-1psarwr {
+    max-width: 70% !important;
+}
+}

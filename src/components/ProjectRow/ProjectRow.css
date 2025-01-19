@@ -1,0 +1,142 @@
+.row {
+    height: fit-content;
+    width: auto;
+    margin: 80px 90px;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+}
+
+.col-1 {
+    position: relative;
+
+}
+
+.border-right {
+    position: absolute;
+    right: -30px;
+
+   
+}
+
+.card-h-img {
+    height: 290px;
+    width: auto;
+}
+
+.col-2 {
+    height: 300px;
+    margin: 0 20px;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+.card-h-info {
+    width: 100%;
+}
+
+.card-h-index {
+    font-size: 43px;
+    color: #c8c8c8;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+.card-h-title {
+    font-size: 16px;
+}
+ .toggle-1 {
+    margin-left: 20px !important;
+}
+.toggle-1 {
+    display: block;
+}
+
+.toggle-2 {
+    display: none !important;
+}
+@media (max-width: 900px) {
+    .row {
+        width: auto;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        gap: 10px;
+    }
+}
+@media (max-width: 768px) {
+
+
+    .carousel-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .col-2 {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-h-info {
+        width: 255px;
+    }
+
+   
+    .card-h-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width : 460px) {
+    .row {
+        width: auto;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 0.5s ease-out, transform 1s ease-out;
+    }
+
+    .col-1 {
+        align-items: center;
+        width: fit-content;
+        margin-top: 40px;
+    }
+
+    .border-right {
+        position: absolute;
+        left: 50%;
+        bottom:  65%;
+        rotate: 90deg;
+    }
+
+    .toggle-1 {
+        display: none;
+    }
+
+    .toggle-2 {
+        display: block !important;
+    }
+
+    .col-2 {
+        height: auto;
+        margin: 10px 0;
+        padding: 0px 0;
+    }
+    .card-h-img {
+        background-size: contain;
+        width: 300px;
+    }
+    
+    .row.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}

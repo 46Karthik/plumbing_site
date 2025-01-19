@@ -1,0 +1,103 @@
+.project-testimonial {
+    background-color: #F05D3E;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    position: relative;
+    margin-top: 50px;
+    width: fit-content;
+
+}
+.project-testimonial-info {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 25px;
+   display: grid;
+   grid-template-columns: 30% auto;
+   justify-items: center;
+   align-items: center;
+   gap: 4rem;
+
+}
+
+.project-round-image {
+height: 154px;
+width: 154.13px;
+display: block;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.project-testimonial-logo > img:last-child {
+    display: none;
+}
+@media (max-width: 900px) {
+    .project-testimonial-info {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-testimonial-text > p {
+        font-size: 14px !important;
+        padding: 0 0 20px 0 !important;
+    }
+    .project-testimonial-text > h4 {
+        font-size: 15px;
+        margin-left: 0 !important;
+        margin-bottom: 0;
+        padding-right: 5px;
+    }
+ 
+    
+}
+@media (max-width: 475px) {
+    .project-testimonial {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .project-testimonial > .blue-rectangle  {
+        display: none;
+    }
+    .h-64 {
+        height: fit-content !important;
+    }
+    .project-testimonial-info {
+        grid-template-columns: auto;
+        gap: 2rem;
+    }
+    .project-testimonial-logo {
+        width: auto;
+        margin-bottom: 20px;
+        padding-left: 0 !important;
+    }
+    .project-testimonial-logo > img {
+
+        height: 113px;
+        margin-top: 30px;
+    }
+    .project-testimonial-text > p {
+        padding-bottom: 20px;
+    }
+    .project-testimonial-text > h4 {
+        margin-bottom: 10px;
+    }
+        .project-testimonial-logo > img:nth-child(2) {
+            display: none;
+        }
+        .project-testimonial-logo > img:last-child {
+            display: block;
+        }
+        .project-testimonial-logo > img:last-child {
+            margin-left: -60px;
+        }
+}
+@media (max-width: 350px) {
+    .project-testimonial-logo > img:last-child {
+        display: none;
+    }
+    .project-testimonial-logo > img:nth-child(2) {
+        display: block;
+    }
+}

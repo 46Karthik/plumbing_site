@@ -1,0 +1,29 @@
+.project-title >span {
+color: #dcdcdc;
+font-weight: 900;
+font-size: 4rem;
+}
+.project-title > p {
+    font-weight: 450;
+}
+@media (max-width:768px) {
+    .project-title > span{
+ padding: 20px;
+        }
+        
+}
+
+@media (max-width: 475px) {
+    .project-title {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .project-title > .ml-8 {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .project-title > span {
+      margin-left: 10px;
+      
+    }
+}

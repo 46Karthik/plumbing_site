@@ -1,0 +1,166 @@
+.header {
+    /* background-color: aquamarine; */
+    height: 330px;
+    color: rgb(152, 154, 159);
+    padding: 40px;
+}
+
+.header-body {
+    position: relative;
+    margin: 40px;
+}
+
+.heading-primary-1 {
+    font-size: 38px;
+}
+
+.heading-primary {
+    /* border-left: 2px solid #333; */
+    padding-left: 20px;
+    position: relative;
+}
+
+.heading-primary+.d-block {
+    display: none;
+}
+
+.border-left {
+    border-left: 2px solid #333;
+    position: absolute;
+    top: 12%;
+    left: -1%;
+    height: 88px;
+}
+
+.heading-secondary {
+    padding-left: 23px;
+
+    letter-spacing: 0.2em;
+}
+
+.heading-description {
+    width: 780px;
+    padding-left: 23px;
+}
+
+.circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    border: 4px solid #fff;
+}
+
+.circle-1 {
+    background-color: #FF6725;
+}
+
+.circle-2 {
+    background-color: #0C5587;
+    margin-left: -30px;
+}
+
+.header-span {
+    position: absolute;
+    right: 0%;
+    bottom: 5%;
+    display: block;
+}
+
+.header-span-2 {
+    position: absolute;
+    opacity: 0;
+}
+@media (max-width: 900px) {
+    .heading-description {
+        width: auto;
+        padding-left: 23px;
+        margin-bottom: 20px;
+    }
+
+    .header-span {
+        position: relative;
+        padding-left: 20px;
+
+    }
+}
+@media (max-width: 768px) {
+    .heading-description {
+        width: auto;
+        padding-left: 23px;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 460px) {
+    .header {
+        /* background-color: aquamarine; */
+        height: fit-content;
+        color: rgb(152, 154, 159);
+        width: fit-content;
+        padding: 0;
+        padding: 20px 0;
+        margin-bottom: 10px;
+    }
+
+    .header-body {
+        position: relative;
+        margin: auto auto 10px auto;
+
+    }
+
+    .heading-primary {
+        display: none;
+    }
+
+    .heading-primary+.d-block {
+        display: block;
+    }
+
+    .heading-primary-1 {
+        font-size: 26px;
+    }
+
+    .header-span {
+        display: none !important;
+    }
+
+
+    .heading-description {
+        display: none;
+    }
+
+    .heading-secondary {
+        font-size: 12px;
+    }
+
+    .header-span-2 {
+        margin-top: 25px;
+        padding-left: 16px;
+        position: relative;
+        opacity: 1;
+    }
+
+    .header-span-2>.circle {
+        height: 33px;
+        width: 33px;
+
+    }
+
+    .header-span-2>.circle-2 {
+        margin-left: -25px;
+
+    }
+
+    .header-span-2>span {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        margin: 20px 0 !important;
+    }
+}
